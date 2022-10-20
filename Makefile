@@ -25,11 +25,11 @@ tests:
 
 	go test -v ./app/ ./auth/ ./clerk/ ./sidechannel/ ./bank/ ./chainmanager/ ./topup/ ./checkpoint/ ./staking/ -cover -coverprofile=cover.out
 
-# make build						Will generate for mainnet by default
-# make build network=mainnet		Will generate for mainnet
-# make build network=mumbai			Will generate for mumbai
-# make build network=local			Will generate for local with NewSelectionAlgoHeight = 0
-# make build network=anythingElse	Will generate for mainnet by default
+# make build						Will generate for shibamainnet by default
+# make build network=shibamainnet		Will generate for shibamainnet
+# make build network=shibabeta			Will generate for shibabeta
+# make build network=shibadev			Will generate for shibadev with NewSelectionAlgoHeight = 0
+# make build network=shibastaging	Will generate for shibamainnet by default
 build: clean
 	go run helper/heimdall-params.template.go $(network)
 	mkdir -p build
@@ -38,11 +38,11 @@ build: clean
 	go build $(BUILD_FLAGS) -o build/bridge bridge/bridge.go
 	@echo "====================================================\n==================Build Successful==================\n===================================================="
 
-# make install							Will generate for mainnet by default
-# make install network=mainnet			Will generate for mainnet
-# make install network=mumbai			Will generate for mumbai
-# make install network=local			Will generate for local with NewSelectionAlgoHeight = 0
-# make install network=anythingElse		Will generate for mainnet by default
+# make install							Will generate for shibamainnet by default
+# make install network=shibamainnet			Will generate for shibamainnet
+# make install network=shibabeta			Will generate for shibabeta
+# make install network=shibadev			Will generate for shibadev with NewSelectionAlgoHeight = 0
+# make install network=shibastaging		Will generate for shibamainnet by default
 install:
 	go run helper/heimdall-params.template.go $(network)
 	go install $(BUILD_FLAGS) ./cmd/heimdalld
