@@ -10,10 +10,10 @@ import (
 	"github.com/tendermint/tendermint/crypto"
 	"github.com/tendermint/tendermint/crypto/secp256k1"
 
-	authTypes "github.com/maticnetwork/heimdall/auth/types"
-	"github.com/maticnetwork/heimdall/chainmanager"
-	"github.com/maticnetwork/heimdall/helper"
-	"github.com/maticnetwork/heimdall/types"
+	authTypes "github.com/shibaswaparmy/heimdall/auth/types"
+	"github.com/shibaswaparmy/heimdall/chainmanager"
+	"github.com/shibaswaparmy/heimdall/helper"
+	"github.com/shibaswaparmy/heimdall/types"
 )
 
 var (

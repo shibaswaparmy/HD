@@ -7,7 +7,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	hmTypes "github.com/maticnetwork/heimdall/types"
+	hmTypes "github.com/shibaswaparmy/heimdall/types"
 )
 
 const (

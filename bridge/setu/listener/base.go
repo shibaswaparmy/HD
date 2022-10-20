@@ -11,12 +11,12 @@ import (
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/tendermint/tendermint/libs/log"
 
-	ethereum "github.com/maticnetwork/bor"
-	"github.com/maticnetwork/bor/core/types"
-	"github.com/maticnetwork/bor/ethclient"
-	"github.com/maticnetwork/heimdall/bridge/setu/queue"
-	"github.com/maticnetwork/heimdall/bridge/setu/util"
-	"github.com/maticnetwork/heimdall/helper"
+	ethereum "github.com/shibaswaparmy/bor"
+	"github.com/shibaswaparmy/bor/core/types"
+	"github.com/shibaswaparmy/bor/ethclient"
+	"github.com/shibaswaparmy/heimdall/bridge/setu/queue"
+	"github.com/shibaswaparmy/heimdall/bridge/setu/util"
+	"github.com/shibaswaparmy/heimdall/helper"
 
 	httpClient "github.com/tendermint/tendermint/rpc/client"
 )

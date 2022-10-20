@@ -9,9 +9,9 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/codec"
 
-	"github.com/maticnetwork/heimdall/auth/types"
-	"github.com/maticnetwork/heimdall/types/module"
-	"github.com/maticnetwork/heimdall/types/simulation"
+	"github.com/shibaswaparmy/heimdall/auth/types"
+	"github.com/shibaswaparmy/heimdall/types/module"
+	"github.com/shibaswaparmy/heimdall/types/simulation"
 )
 
 // Simulation parameter constants

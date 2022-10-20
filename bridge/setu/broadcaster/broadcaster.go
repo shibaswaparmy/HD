@@ -9,13 +9,13 @@ import (
 	cliContext "github.com/cosmos/cosmos-sdk/client/context"
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	bor "github.com/maticnetwork/bor"
-	"github.com/maticnetwork/bor/core/types"
-	authTypes "github.com/maticnetwork/heimdall/auth/types"
-	"github.com/maticnetwork/heimdall/bridge/setu/util"
-	"github.com/maticnetwork/heimdall/helper"
+	bor "github.com/shibaswaparmy/bor"
+	"github.com/shibaswaparmy/bor/core/types"
+	authTypes "github.com/shibaswaparmy/heimdall/auth/types"
+	"github.com/shibaswaparmy/heimdall/bridge/setu/util"
+	"github.com/shibaswaparmy/heimdall/helper"
 
-	hmTypes "github.com/maticnetwork/heimdall/types"
+	hmTypes "github.com/shibaswaparmy/heimdall/types"
 	"github.com/tendermint/tendermint/libs/log"
 )
 

@@ -7,8 +7,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/maticnetwork/heimdall/app"
-	"github.com/maticnetwork/heimdall/bank"
+	"github.com/shibaswaparmy/heimdall/app"
+	"github.com/shibaswaparmy/heimdall/bank"
 )
 
 //

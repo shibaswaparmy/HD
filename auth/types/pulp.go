@@ -8,8 +8,8 @@ import (
 	"sync"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/maticnetwork/bor/crypto"
-	"github.com/maticnetwork/bor/rlp"
+	"github.com/shibaswaparmy/bor/crypto"
+	"github.com/shibaswaparmy/bor/rlp"
 )
 
 const (

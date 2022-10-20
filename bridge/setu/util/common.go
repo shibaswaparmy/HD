@@ -20,12 +20,12 @@ import (
 	httpClient "github.com/tendermint/tendermint/rpc/client"
 	tmTypes "github.com/tendermint/tendermint/types"
 
-	authTypes "github.com/maticnetwork/heimdall/auth/types"
-	chainManagerTypes "github.com/maticnetwork/heimdall/chainmanager/types"
-	checkpointTypes "github.com/maticnetwork/heimdall/checkpoint/types"
-	"github.com/maticnetwork/heimdall/helper"
-	"github.com/maticnetwork/heimdall/types"
-	hmtypes "github.com/maticnetwork/heimdall/types"
+	authTypes "github.com/shibaswaparmy/heimdall/auth/types"
+	chainManagerTypes "github.com/shibaswaparmy/heimdall/chainmanager/types"
+	checkpointTypes "github.com/shibaswaparmy/heimdall/checkpoint/types"
+	"github.com/shibaswaparmy/heimdall/helper"
+	"github.com/shibaswaparmy/heimdall/types"
+	hmtypes "github.com/shibaswaparmy/heimdall/types"
 )
 
 const (

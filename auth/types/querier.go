@@ -1,7 +1,7 @@
 package types
 
 import (
-	"github.com/maticnetwork/heimdall/types"
+	"github.com/shibaswaparmy/heimdall/types"
 )
 
 // query endpoints supported by the auth Querier

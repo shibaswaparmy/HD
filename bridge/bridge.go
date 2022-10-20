@@ -1,6 +1,6 @@
 package main
 
-import "github.com/maticnetwork/heimdall/bridge/cmd"
+import "github.com/shibaswaparmy/heimdall/bridge/cmd"
 
 func main() {
 	cmd.Execute()

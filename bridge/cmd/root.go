@@ -8,8 +8,8 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/maticnetwork/heimdall/helper"
-	"github.com/maticnetwork/heimdall/version"
+	"github.com/shibaswaparmy/heimdall/helper"
+	"github.com/shibaswaparmy/heimdall/version"
 )
 
 const (

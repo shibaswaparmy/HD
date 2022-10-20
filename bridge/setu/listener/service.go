@@ -2,9 +2,9 @@ package listener
 
 import (
 	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/maticnetwork/heimdall/bridge/setu/queue"
-	"github.com/maticnetwork/heimdall/bridge/setu/util"
-	"github.com/maticnetwork/heimdall/helper"
+	"github.com/shibaswaparmy/heimdall/bridge/setu/queue"
+	"github.com/shibaswaparmy/heimdall/bridge/setu/util"
+	"github.com/shibaswaparmy/heimdall/helper"
 	"github.com/tendermint/tendermint/libs/common"
 	httpClient "github.com/tendermint/tendermint/rpc/client"
 )

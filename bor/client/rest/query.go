@@ -11,13 +11,13 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/rest"
 	"github.com/gorilla/mux"
 
-	"github.com/maticnetwork/bor/consensus/bor"
-	"github.com/maticnetwork/heimdall/bor/types"
-	checkpointTypes "github.com/maticnetwork/heimdall/checkpoint/types"
-	"github.com/maticnetwork/heimdall/helper"
-	stakingTypes "github.com/maticnetwork/heimdall/staking/types"
-	hmTypes "github.com/maticnetwork/heimdall/types"
-	hmRest "github.com/maticnetwork/heimdall/types/rest"
+	"github.com/shibaswaparmy/bor/consensus/bor"
+	"github.com/shibaswaparmy/heimdall/bor/types"
+	checkpointTypes "github.com/shibaswaparmy/heimdall/checkpoint/types"
+	"github.com/shibaswaparmy/heimdall/helper"
+	stakingTypes "github.com/shibaswaparmy/heimdall/staking/types"
+	hmTypes "github.com/shibaswaparmy/heimdall/types"
+	hmRest "github.com/shibaswaparmy/heimdall/types/rest"
 )
 
 type HeimdallSpanResultWithHeight struct {

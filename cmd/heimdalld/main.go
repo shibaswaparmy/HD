@@ -16,7 +16,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/server"
 	"github.com/cosmos/cosmos-sdk/store"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	ethCommon "github.com/maticnetwork/bor/common"
+	ethCommon "github.com/shibaswaparmy/bor/common"
 	"github.com/spf13/cast"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
@@ -33,12 +33,12 @@ import (
 	tmtime "github.com/tendermint/tendermint/types/time"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/maticnetwork/heimdall/app"
-	authTypes "github.com/maticnetwork/heimdall/auth/types"
-	"github.com/maticnetwork/heimdall/helper"
-	hmserver "github.com/maticnetwork/heimdall/server"
-	hmTypes "github.com/maticnetwork/heimdall/types"
-	hmModule "github.com/maticnetwork/heimdall/types/module"
+	"github.com/shibaswaparmy/heimdall/app"
+	authTypes "github.com/shibaswaparmy/heimdall/auth/types"
+	"github.com/shibaswaparmy/heimdall/helper"
+	hmserver "github.com/shibaswaparmy/heimdall/server"
+	hmTypes "github.com/shibaswaparmy/heimdall/types"
+	hmModule "github.com/shibaswaparmy/heimdall/types/module"
 )
 
 var logger = helper.Logger.With("module", "cmd/heimdalld")

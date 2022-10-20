@@ -13,11 +13,11 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
 
-	"github.com/maticnetwork/heimdall/gov/client"
-	"github.com/maticnetwork/heimdall/gov/client/cli"
-	"github.com/maticnetwork/heimdall/gov/client/rest"
-	"github.com/maticnetwork/heimdall/gov/types"
-	hmModule "github.com/maticnetwork/heimdall/types/module"
+	"github.com/shibaswaparmy/heimdall/gov/client"
+	"github.com/shibaswaparmy/heimdall/gov/client/cli"
+	"github.com/shibaswaparmy/heimdall/gov/client/rest"
+	"github.com/shibaswaparmy/heimdall/gov/types"
+	hmModule "github.com/shibaswaparmy/heimdall/types/module"
 )
 
 var (

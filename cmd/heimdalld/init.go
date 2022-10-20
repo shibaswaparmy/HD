@@ -15,15 +15,15 @@ import (
 	"github.com/tendermint/tendermint/libs/common"
 	tmtime "github.com/tendermint/tendermint/types/time"
 
-	"github.com/maticnetwork/heimdall/app"
-	authTypes "github.com/maticnetwork/heimdall/auth/types"
-	borTypes "github.com/maticnetwork/heimdall/bor/types"
-	"github.com/maticnetwork/heimdall/helper"
-	slashingTypes "github.com/maticnetwork/heimdall/slashing/types"
-	stakingcli "github.com/maticnetwork/heimdall/staking/client/cli"
-	stakingTypes "github.com/maticnetwork/heimdall/staking/types"
-	topupTypes "github.com/maticnetwork/heimdall/topup/types"
-	hmTypes "github.com/maticnetwork/heimdall/types"
+	"github.com/shibaswaparmy/heimdall/app"
+	authTypes "github.com/shibaswaparmy/heimdall/auth/types"
+	borTypes "github.com/shibaswaparmy/heimdall/bor/types"
+	"github.com/shibaswaparmy/heimdall/helper"
+	slashingTypes "github.com/shibaswaparmy/heimdall/slashing/types"
+	stakingcli "github.com/shibaswaparmy/heimdall/staking/client/cli"
+	stakingTypes "github.com/shibaswaparmy/heimdall/staking/types"
+	topupTypes "github.com/shibaswaparmy/heimdall/topup/types"
+	hmTypes "github.com/shibaswaparmy/heimdall/types"
 )
 
 // InitCmd initialises files required to start heimdall

@@ -11,12 +11,12 @@ import (
 	abci "github.com/tendermint/tendermint/abci/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/maticnetwork/heimdall/app"
-	authTypes "github.com/maticnetwork/heimdall/auth/types"
-	"github.com/maticnetwork/heimdall/bank"
-	"github.com/maticnetwork/heimdall/bank/types"
-	hmTypes "github.com/maticnetwork/heimdall/types"
-	"github.com/maticnetwork/heimdall/types/simulation"
+	"github.com/shibaswaparmy/heimdall/app"
+	authTypes "github.com/shibaswaparmy/heimdall/auth/types"
+	"github.com/shibaswaparmy/heimdall/bank"
+	"github.com/shibaswaparmy/heimdall/bank/types"
+	hmTypes "github.com/shibaswaparmy/heimdall/types"
+	"github.com/shibaswaparmy/heimdall/types/simulation"
 )
 
 //

@@ -13,9 +13,9 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/maticnetwork/heimdall/bor/types"
-	hmClient "github.com/maticnetwork/heimdall/client"
-	"github.com/maticnetwork/heimdall/version"
+	"github.com/shibaswaparmy/heimdall/bor/types"
+	hmClient "github.com/shibaswaparmy/heimdall/client"
+	"github.com/shibaswaparmy/heimdall/version"
 )
 
 // GetQueryCmd returns the cli query commands for this module

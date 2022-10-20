@@ -6,7 +6,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/maticnetwork/heimdall/chainmanager/types"
+	"github.com/shibaswaparmy/heimdall/chainmanager/types"
 )
 
 // NewQuerier creates a querier for auth REST endpoints

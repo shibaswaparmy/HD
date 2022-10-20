@@ -9,9 +9,9 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/rest"
 	"github.com/gorilla/mux"
 
-	authTypes "github.com/maticnetwork/heimdall/auth/types"
-	"github.com/maticnetwork/heimdall/types"
-	hmRest "github.com/maticnetwork/heimdall/types/rest"
+	authTypes "github.com/shibaswaparmy/heimdall/auth/types"
+	"github.com/shibaswaparmy/heimdall/types"
+	hmRest "github.com/shibaswaparmy/heimdall/types/rest"
 )
 
 // QueryAccountRequestHandlerFn query account REST Handler

@@ -7,9 +7,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/maticnetwork/heimdall/app"
-	authTypes "github.com/maticnetwork/heimdall/auth/types"
-	supplyTypes "github.com/maticnetwork/heimdall/supply/types"
+	"github.com/shibaswaparmy/heimdall/app"
+	authTypes "github.com/shibaswaparmy/heimdall/auth/types"
+	supplyTypes "github.com/shibaswaparmy/heimdall/supply/types"
 )
 
 //

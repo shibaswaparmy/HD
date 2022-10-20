@@ -9,10 +9,10 @@ import (
 	"github.com/cosmos/cosmos-sdk/client/context"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	restClient "github.com/maticnetwork/heimdall/client/rest"
-	topupTypes "github.com/maticnetwork/heimdall/topup/types"
-	"github.com/maticnetwork/heimdall/types"
-	"github.com/maticnetwork/heimdall/types/rest"
+	restClient "github.com/shibaswaparmy/heimdall/client/rest"
+	topupTypes "github.com/shibaswaparmy/heimdall/topup/types"
+	"github.com/shibaswaparmy/heimdall/types"
+	"github.com/shibaswaparmy/heimdall/types/rest"
 )
 
 // RegisterRoutes - Central function to define routes that get registered by the main application

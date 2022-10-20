@@ -5,8 +5,8 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/maticnetwork/bor/common"
-	"github.com/maticnetwork/bor/rlp"
+	"github.com/shibaswaparmy/bor/common"
+	"github.com/shibaswaparmy/bor/rlp"
 )
 
 var (

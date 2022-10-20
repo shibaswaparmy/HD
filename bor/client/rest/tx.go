@@ -10,11 +10,11 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/gorilla/mux"
 
-	"github.com/maticnetwork/bor/common"
-	"github.com/maticnetwork/heimdall/bor/types"
-	restClient "github.com/maticnetwork/heimdall/client/rest"
-	hmTypes "github.com/maticnetwork/heimdall/types"
-	"github.com/maticnetwork/heimdall/types/rest"
+	"github.com/shibaswaparmy/bor/common"
+	"github.com/shibaswaparmy/heimdall/bor/types"
+	restClient "github.com/shibaswaparmy/heimdall/client/rest"
+	hmTypes "github.com/shibaswaparmy/heimdall/types"
+	"github.com/shibaswaparmy/heimdall/types/rest"
 )
 
 func registerTxRoutes(cliCtx context.CLIContext, r *mux.Router) {

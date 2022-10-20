@@ -9,10 +9,10 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/maticnetwork/bor/common"
-	"github.com/maticnetwork/bor/crypto"
-	"github.com/maticnetwork/heimdall/types"
-	hmTypes "github.com/maticnetwork/heimdall/types"
+	"github.com/shibaswaparmy/bor/common"
+	"github.com/shibaswaparmy/bor/crypto"
+	"github.com/shibaswaparmy/heimdall/types"
+	hmTypes "github.com/shibaswaparmy/heimdall/types"
 	"github.com/stretchr/testify/require"
 )
 

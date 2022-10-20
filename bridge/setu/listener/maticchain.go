@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"github.com/RichardKnop/machinery/v1/tasks"
-	"github.com/maticnetwork/bor/core/types"
-	"github.com/maticnetwork/heimdall/helper"
+	"github.com/shibaswaparmy/bor/core/types"
+	"github.com/shibaswaparmy/heimdall/helper"
 )
 
 // MaticChainListener - Listens to and process headerblocks from maticchain

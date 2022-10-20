@@ -5,7 +5,7 @@ import (
 	"github.com/gorilla/mux"
 	tmLog "github.com/tendermint/tendermint/libs/log"
 
-	"github.com/maticnetwork/heimdall/helper"
+	"github.com/shibaswaparmy/heimdall/helper"
 )
 
 // RestLogger for bor module logger

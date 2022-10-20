@@ -13,8 +13,8 @@ import (
 	"github.com/tendermint/tendermint/crypto/secp256k1"
 	yaml "gopkg.in/yaml.v2"
 
-	"github.com/maticnetwork/heimdall/auth/exported"
-	"github.com/maticnetwork/heimdall/types"
+	"github.com/shibaswaparmy/heimdall/auth/exported"
+	"github.com/shibaswaparmy/heimdall/types"
 )
 
 var cdc = amino.NewCodec()

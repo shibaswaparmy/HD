@@ -10,11 +10,11 @@ import (
 	"github.com/cosmos/cosmos-sdk/client/context"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	restClient "github.com/maticnetwork/heimdall/client/rest"
 	gcutils "github.com/maticnetwork/heimdall/gov/client/utils"
 	"github.com/maticnetwork/heimdall/gov/types"
 	hmTypes "github.com/maticnetwork/heimdall/types"
 	"github.com/maticnetwork/heimdall/types/rest"
+	restClient "github.com/shibaswaparmy/heimdall/client/rest"
 )
 
 // REST Variable names

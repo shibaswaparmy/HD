@@ -4,8 +4,8 @@ import (
 	"fmt"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/maticnetwork/heimdall/gov/types"
-	hmTypes "github.com/maticnetwork/heimdall/types"
+	"github.com/shibaswaparmy/heimdall/gov/types"
+	hmTypes "github.com/shibaswaparmy/heimdall/types"
 )
 
 // AddVote Adds a vote on a specific proposal

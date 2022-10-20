@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/maticnetwork/heimdall/gov/types"
+	"github.com/shibaswaparmy/heimdall/gov/types"
 )
 
 // RegisterInvariants registers all governance invariants

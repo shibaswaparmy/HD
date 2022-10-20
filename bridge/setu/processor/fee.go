@@ -4,13 +4,13 @@ import (
 	"encoding/json"
 
 	cliContext "github.com/cosmos/cosmos-sdk/client/context"
-	"github.com/maticnetwork/bor/accounts/abi"
-	"github.com/maticnetwork/bor/core/types"
-	"github.com/maticnetwork/heimdall/bridge/setu/util"
-	"github.com/maticnetwork/heimdall/contracts/stakinginfo"
-	"github.com/maticnetwork/heimdall/helper"
-	topupTypes "github.com/maticnetwork/heimdall/topup/types"
-	hmTypes "github.com/maticnetwork/heimdall/types"
+	"github.com/shibaswaparmy/bor/accounts/abi"
+	"github.com/shibaswaparmy/bor/core/types"
+	"github.com/shibaswaparmy/heimdall/bridge/setu/util"
+	"github.com/shibaswaparmy/heimdall/contracts/stakinginfo"
+	"github.com/shibaswaparmy/heimdall/helper"
+	topupTypes "github.com/shibaswaparmy/heimdall/topup/types"
+	hmTypes "github.com/shibaswaparmy/heimdall/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

@@ -6,11 +6,11 @@ import (
 	"time"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/maticnetwork/heimdall/app"
-	"github.com/maticnetwork/heimdall/checkpoint"
-	"github.com/maticnetwork/heimdall/checkpoint/types"
-	hmTypes "github.com/maticnetwork/heimdall/types"
-	"github.com/maticnetwork/heimdall/types/simulation"
+	"github.com/shibaswaparmy/heimdall/app"
+	"github.com/shibaswaparmy/heimdall/checkpoint"
+	"github.com/shibaswaparmy/heimdall/checkpoint/types"
+	hmTypes "github.com/shibaswaparmy/heimdall/types"
+	"github.com/shibaswaparmy/heimdall/types/simulation"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 )

@@ -1,4 +1,4 @@
-module github.com/maticnetwork/heimdall
+module github.com/shibaswaparmy/heimdall
 
 go 1.12
 
@@ -25,7 +25,7 @@ require (
 	github.com/huin/goupnp v1.0.0 // indirect
 	github.com/jackpal/go-nat-pmp v1.0.2 // indirect
 	github.com/karalabe/usb v0.0.0-20191104083709-911d15fe12a9 // indirect
-	github.com/maticnetwork/bor v0.1.7-0.20200507151553-e03cd94ed12b
+	github.com/shibaswaparmy/bor v0.1.7-0.20200507151553-e03cd94ed12b
 	github.com/olekukonko/tablewriter v0.0.4 // indirect
 	github.com/pborman/uuid v1.2.0
 	github.com/peterh/liner v1.2.0 // indirect
@@ -54,6 +54,6 @@ require (
 	gopkg.in/yaml.v2 v2.2.8
 )
 
-replace github.com/tendermint/tendermint => github.com/maticnetwork/tendermint v0.26.0-dev0.0.20220311091200-3ea059b213ed
+replace github.com/tendermint/tendermint => github.com/shibaswaparmy/tendermint v0.26.0-dev0.0.20220311091200-3ea059b213ed
 
-replace github.com/cosmos/cosmos-sdk => github.com/maticnetwork/cosmos-sdk v0.37.5-0.20220311095845-81690c6a53e7
+replace github.com/cosmos/cosmos-sdk => github.com/shibaswaparmy/cosmos-sdk v0.37.5-0.20220311095845-81690c6a53e7

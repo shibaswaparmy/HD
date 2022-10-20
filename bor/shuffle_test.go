@@ -7,8 +7,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/maticnetwork/bor/common"
-	"github.com/maticnetwork/heimdall/types"
+	"github.com/shibaswaparmy/bor/common"
+	"github.com/shibaswaparmy/heimdall/types"
 	"github.com/tendermint/tendermint/crypto/secp256k1"
 )
 

@@ -3,8 +3,8 @@ package bank
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/maticnetwork/heimdall/bank/types"
-	"github.com/maticnetwork/heimdall/helper"
+	"github.com/shibaswaparmy/heimdall/bank/types"
+	"github.com/shibaswaparmy/heimdall/helper"
 )
 
 // NewHandler returns a handler for "bank" type messages.

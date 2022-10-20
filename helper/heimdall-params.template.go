@@ -28,9 +28,10 @@ var tomlConfig struct {
 }
 
 var networks = []string{
-	"mainnet",
-	"mumbai",
-	"local",
+	"shibamainnet",
+	"shibabeta",
+	"shibadev",
+	"shibastaging",
 }
 
 func main() {

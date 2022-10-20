@@ -3,7 +3,7 @@ package types
 import (
 	"fmt"
 
-	"github.com/maticnetwork/heimdall/types"
+	"github.com/shibaswaparmy/heimdall/types"
 )
 
 // NodeQuerier is an interface that is satisfied by types that provide the QueryWithData method

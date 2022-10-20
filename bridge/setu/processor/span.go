@@ -8,13 +8,13 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/maticnetwork/bor/common"
-	"github.com/maticnetwork/heimdall/bridge/setu/util"
-	"github.com/maticnetwork/heimdall/helper"
+	"github.com/shibaswaparmy/bor/common"
+	"github.com/shibaswaparmy/heimdall/bridge/setu/util"
+	"github.com/shibaswaparmy/heimdall/helper"
 
-	borTypes "github.com/maticnetwork/heimdall/bor/types"
+	borTypes "github.com/shibaswaparmy/heimdall/bor/types"
 
-	"github.com/maticnetwork/heimdall/types"
+	"github.com/shibaswaparmy/heimdall/types"
 )
 
 // SpanProcessor - process span related events

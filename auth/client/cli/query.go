@@ -10,9 +10,9 @@ import (
 	"github.com/cosmos/cosmos-sdk/codec"
 	"github.com/spf13/cobra"
 
-	"github.com/maticnetwork/heimdall/auth/types"
-	hmTypes "github.com/maticnetwork/heimdall/types"
-	"github.com/maticnetwork/heimdall/version"
+	"github.com/shibaswaparmy/heimdall/auth/types"
+	hmTypes "github.com/shibaswaparmy/heimdall/types"
+	"github.com/shibaswaparmy/heimdall/version"
 )
 
 // GetQueryCmd returns the transaction commands for this module

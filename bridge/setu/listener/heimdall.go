@@ -7,13 +7,13 @@ import (
 	"time"
 
 	"github.com/RichardKnop/machinery/v1/tasks"
-	"github.com/maticnetwork/bor/core/types"
-	"github.com/maticnetwork/heimdall/helper"
+	"github.com/shibaswaparmy/bor/core/types"
+	"github.com/shibaswaparmy/heimdall/helper"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	checkpointTypes "github.com/maticnetwork/heimdall/checkpoint/types"
-	slashingTypes "github.com/maticnetwork/heimdall/slashing/types"
+	checkpointTypes "github.com/shibaswaparmy/heimdall/checkpoint/types"
+	slashingTypes "github.com/shibaswaparmy/heimdall/slashing/types"
 )
 
 const (

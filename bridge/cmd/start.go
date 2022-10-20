@@ -16,13 +16,13 @@ import (
 	httpClient "github.com/tendermint/tendermint/rpc/client"
 
 	cliContext "github.com/cosmos/cosmos-sdk/client/context"
-	"github.com/maticnetwork/heimdall/app"
-	"github.com/maticnetwork/heimdall/bridge/setu/broadcaster"
-	"github.com/maticnetwork/heimdall/bridge/setu/listener"
-	"github.com/maticnetwork/heimdall/bridge/setu/processor"
-	"github.com/maticnetwork/heimdall/bridge/setu/queue"
-	"github.com/maticnetwork/heimdall/bridge/setu/util"
-	"github.com/maticnetwork/heimdall/helper"
+	"github.com/shibaswaparmy/heimdall/app"
+	"github.com/shibaswaparmy/heimdall/bridge/setu/broadcaster"
+	"github.com/shibaswaparmy/heimdall/bridge/setu/listener"
+	"github.com/shibaswaparmy/heimdall/bridge/setu/processor"
+	"github.com/shibaswaparmy/heimdall/bridge/setu/queue"
+	"github.com/shibaswaparmy/heimdall/bridge/setu/util"
+	"github.com/shibaswaparmy/heimdall/helper"
 )
 
 const (

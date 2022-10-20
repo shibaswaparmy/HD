@@ -13,11 +13,11 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/maticnetwork/bor/common"
-	"github.com/maticnetwork/heimdall/bor/types"
-	hmClient "github.com/maticnetwork/heimdall/client"
-	"github.com/maticnetwork/heimdall/helper"
-	hmTypes "github.com/maticnetwork/heimdall/types"
+	"github.com/shibaswaparmy/bor/common"
+	"github.com/shibaswaparmy/heimdall/bor/types"
+	hmClient "github.com/shibaswaparmy/heimdall/client"
+	"github.com/shibaswaparmy/heimdall/helper"
+	hmTypes "github.com/shibaswaparmy/heimdall/types"
 )
 
 var cliLogger = helper.Logger.With("module", "bor/client/cli")

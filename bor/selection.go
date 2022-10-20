@@ -5,10 +5,10 @@ import (
 	"math"
 	"math/rand"
 
-	"github.com/maticnetwork/bor/common"
-	"github.com/maticnetwork/heimdall/bor/types"
-	"github.com/maticnetwork/heimdall/helper"
-	hmTypes "github.com/maticnetwork/heimdall/types"
+	"github.com/shibaswaparmy/bor/common"
+	"github.com/shibaswaparmy/heimdall/bor/types"
+	"github.com/shibaswaparmy/heimdall/helper"
+	hmTypes "github.com/shibaswaparmy/heimdall/types"
 )
 
 // XXXSelectNextProducers selects producers for next span by converting power to tickets

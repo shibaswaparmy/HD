@@ -5,14 +5,14 @@ import (
 	"encoding/json"
 
 	cliContext "github.com/cosmos/cosmos-sdk/client/context"
-	"github.com/maticnetwork/bor/accounts/abi"
-	"github.com/maticnetwork/bor/core/types"
-	"github.com/maticnetwork/heimdall/bridge/setu/util"
-	chainmanagerTypes "github.com/maticnetwork/heimdall/chainmanager/types"
-	clerkTypes "github.com/maticnetwork/heimdall/clerk/types"
-	"github.com/maticnetwork/heimdall/contracts/statesender"
-	"github.com/maticnetwork/heimdall/helper"
-	hmTypes "github.com/maticnetwork/heimdall/types"
+	"github.com/shibaswaparmy/bor/accounts/abi"
+	"github.com/shibaswaparmy/bor/core/types"
+	"github.com/shibaswaparmy/heimdall/bridge/setu/util"
+	chainmanagerTypes "github.com/shibaswaparmy/heimdall/chainmanager/types"
+	clerkTypes "github.com/shibaswaparmy/heimdall/clerk/types"
+	"github.com/shibaswaparmy/heimdall/contracts/statesender"
+	"github.com/shibaswaparmy/heimdall/helper"
+	hmTypes "github.com/shibaswaparmy/heimdall/types"
 )
 
 // ClerkContext for bridge

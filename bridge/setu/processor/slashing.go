@@ -8,16 +8,16 @@ import (
 
 	cliContext "github.com/cosmos/cosmos-sdk/client/context"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/maticnetwork/bor/accounts/abi"
-	"github.com/maticnetwork/bor/common"
-	"github.com/maticnetwork/bor/core/types"
-	authTypes "github.com/maticnetwork/heimdall/auth/types"
-	"github.com/maticnetwork/heimdall/bridge/setu/util"
-	chainmanagerTypes "github.com/maticnetwork/heimdall/chainmanager/types"
-	"github.com/maticnetwork/heimdall/contracts/stakinginfo"
-	"github.com/maticnetwork/heimdall/helper"
-	slashingTypes "github.com/maticnetwork/heimdall/slashing/types"
-	hmTypes "github.com/maticnetwork/heimdall/types"
+	"github.com/shibaswaparmy/bor/accounts/abi"
+	"github.com/shibaswaparmy/bor/common"
+	"github.com/shibaswaparmy/bor/core/types"
+	authTypes "github.com/shibaswaparmy/heimdall/auth/types"
+	"github.com/shibaswaparmy/heimdall/bridge/setu/util"
+	chainmanagerTypes "github.com/shibaswaparmy/heimdall/chainmanager/types"
+	"github.com/shibaswaparmy/heimdall/contracts/stakinginfo"
+	"github.com/shibaswaparmy/heimdall/helper"
+	slashingTypes "github.com/shibaswaparmy/heimdall/slashing/types"
+	hmTypes "github.com/shibaswaparmy/heimdall/types"
 )
 
 // SlashingProcessor - process slashing related events

@@ -5,8 +5,8 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	hmCommon "github.com/maticnetwork/heimdall/common"
-	hmTypes "github.com/maticnetwork/heimdall/types"
+	hmCommon "github.com/shibaswaparmy/heimdall/common"
+	hmTypes "github.com/shibaswaparmy/heimdall/types"
 )
 
 // Governance message types and routes

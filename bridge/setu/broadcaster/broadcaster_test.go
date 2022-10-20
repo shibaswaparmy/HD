@@ -4,10 +4,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/maticnetwork/heimdall/app"
-	checkpointTypes "github.com/maticnetwork/heimdall/checkpoint/types"
-	"github.com/maticnetwork/heimdall/helper"
-	hmTypes "github.com/maticnetwork/heimdall/types"
+	"github.com/shibaswaparmy/heimdall/app"
+	checkpointTypes "github.com/shibaswaparmy/heimdall/checkpoint/types"
+	"github.com/shibaswaparmy/heimdall/helper"
+	hmTypes "github.com/shibaswaparmy/heimdall/types"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 )

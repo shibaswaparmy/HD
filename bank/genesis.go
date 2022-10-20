@@ -3,7 +3,7 @@ package bank
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	bankTypes "github.com/maticnetwork/heimdall/bank/types"
+	bankTypes "github.com/shibaswaparmy/heimdall/bank/types"
 )
 
 // InitGenesis sets distribution information for genesis.

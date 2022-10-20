@@ -11,12 +11,12 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkAuth "github.com/cosmos/cosmos-sdk/x/auth/types"
-	"github.com/maticnetwork/heimdall/app"
-	"github.com/maticnetwork/heimdall/auth"
-	"github.com/maticnetwork/heimdall/auth/exported"
-	"github.com/maticnetwork/heimdall/auth/types"
-	authTypes "github.com/maticnetwork/heimdall/auth/types"
-	hmTypes "github.com/maticnetwork/heimdall/types"
+	"github.com/shibaswaparmy/heimdall/app"
+	"github.com/shibaswaparmy/heimdall/auth"
+	"github.com/shibaswaparmy/heimdall/auth/exported"
+	"github.com/shibaswaparmy/heimdall/auth/types"
+	authTypes "github.com/shibaswaparmy/heimdall/auth/types"
+	hmTypes "github.com/shibaswaparmy/heimdall/types"
 )
 
 //

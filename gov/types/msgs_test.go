@@ -7,8 +7,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 
-	authTypes "github.com/maticnetwork/heimdall/auth/types"
-	hmTypes "github.com/maticnetwork/heimdall/types"
+	authTypes "github.com/shibaswaparmy/heimdall/auth/types"
+	hmTypes "github.com/shibaswaparmy/heimdall/types"
 )
 
 var (

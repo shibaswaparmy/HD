@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	hmTypes "github.com/maticnetwork/heimdall/types"
+	hmTypes "github.com/shibaswaparmy/heimdall/types"
 	"github.com/tendermint/tendermint/crypto/secp256k1"
 )
 

@@ -12,16 +12,16 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/maticnetwork/bor/accounts/abi"
-	"github.com/maticnetwork/bor/common"
-	"github.com/maticnetwork/bor/core/types"
-	authTypes "github.com/maticnetwork/heimdall/auth/types"
-	"github.com/maticnetwork/heimdall/bridge/setu/util"
-	chainmanagerTypes "github.com/maticnetwork/heimdall/chainmanager/types"
-	checkpointTypes "github.com/maticnetwork/heimdall/checkpoint/types"
-	"github.com/maticnetwork/heimdall/contracts/rootchain"
-	"github.com/maticnetwork/heimdall/helper"
-	hmTypes "github.com/maticnetwork/heimdall/types"
+	"github.com/shibaswaparmy/bor/accounts/abi"
+	"github.com/shibaswaparmy/bor/common"
+	"github.com/shibaswaparmy/bor/core/types"
+	authTypes "github.com/shibaswaparmy/heimdall/auth/types"
+	"github.com/shibaswaparmy/heimdall/bridge/setu/util"
+	chainmanagerTypes "github.com/shibaswaparmy/heimdall/chainmanager/types"
+	checkpointTypes "github.com/shibaswaparmy/heimdall/checkpoint/types"
+	"github.com/shibaswaparmy/heimdall/contracts/rootchain"
+	"github.com/shibaswaparmy/heimdall/helper"
+	hmTypes "github.com/shibaswaparmy/heimdall/types"
 )
 
 // CheckpointProcessor - processor for checkpoint queue.

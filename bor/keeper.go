@@ -9,13 +9,13 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/tendermint/tendermint/libs/log"
 
-	"github.com/maticnetwork/bor/common"
-	"github.com/maticnetwork/heimdall/bor/types"
-	chainmanager "github.com/maticnetwork/heimdall/chainmanager"
-	"github.com/maticnetwork/heimdall/helper"
-	"github.com/maticnetwork/heimdall/params/subspace"
-	"github.com/maticnetwork/heimdall/staking"
-	hmTypes "github.com/maticnetwork/heimdall/types"
+	"github.com/shibaswaparmy/bor/common"
+	"github.com/shibaswaparmy/heimdall/bor/types"
+	chainmanager "github.com/shibaswaparmy/heimdall/chainmanager"
+	"github.com/shibaswaparmy/heimdall/helper"
+	"github.com/shibaswaparmy/heimdall/params/subspace"
+	"github.com/shibaswaparmy/heimdall/staking"
+	hmTypes "github.com/shibaswaparmy/heimdall/types"
 )
 
 var (

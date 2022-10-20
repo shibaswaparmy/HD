@@ -9,9 +9,9 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/rest"
 	"github.com/gorilla/mux"
 
-	"github.com/maticnetwork/heimdall/topup/types"
-	hmTypes "github.com/maticnetwork/heimdall/types"
-	hmRest "github.com/maticnetwork/heimdall/types/rest"
+	"github.com/shibaswaparmy/heimdall/topup/types"
+	hmTypes "github.com/shibaswaparmy/heimdall/types"
+	hmRest "github.com/shibaswaparmy/heimdall/types/rest"
 )
 
 func registerQueryRoutes(cliCtx context.CLIContext, r *mux.Router) {

@@ -7,7 +7,7 @@ import (
 
 	"github.com/spf13/viper"
 
-	govutils "github.com/maticnetwork/heimdall/gov/client/utils"
+	govutils "github.com/shibaswaparmy/heimdall/gov/client/utils"
 )
 
 func parseSubmitProposalFlags() (*proposal, error) {

@@ -8,13 +8,13 @@ import (
 	"github.com/RichardKnop/machinery/v1/tasks"
 	cliContext "github.com/cosmos/cosmos-sdk/client/context"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/maticnetwork/bor/accounts/abi"
-	"github.com/maticnetwork/bor/core/types"
-	"github.com/maticnetwork/heimdall/bridge/setu/util"
-	"github.com/maticnetwork/heimdall/contracts/stakinginfo"
-	"github.com/maticnetwork/heimdall/helper"
-	stakingTypes "github.com/maticnetwork/heimdall/staking/types"
-	hmTypes "github.com/maticnetwork/heimdall/types"
+	"github.com/shibaswaparmy/bor/accounts/abi"
+	"github.com/shibaswaparmy/bor/core/types"
+	"github.com/shibaswaparmy/heimdall/bridge/setu/util"
+	"github.com/shibaswaparmy/heimdall/contracts/stakinginfo"
+	"github.com/shibaswaparmy/heimdall/helper"
+	stakingTypes "github.com/shibaswaparmy/heimdall/staking/types"
+	hmTypes "github.com/shibaswaparmy/heimdall/types"
 )
 
 const (

@@ -1,8 +1,8 @@
 package cmd
 
 import (
-	"github.com/maticnetwork/heimdall/bridge/setu/queue"
-	"github.com/maticnetwork/heimdall/helper"
+	"github.com/shibaswaparmy/heimdall/bridge/setu/queue"
+	"github.com/shibaswaparmy/heimdall/helper"
 	"github.com/spf13/cobra"
 	"github.com/streadway/amqp"
 )

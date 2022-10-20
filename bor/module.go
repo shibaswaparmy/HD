@@ -11,12 +11,12 @@ import (
 	"github.com/spf13/cobra"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	borCli "github.com/maticnetwork/heimdall/bor/client/cli"
-	borRest "github.com/maticnetwork/heimdall/bor/client/rest"
-	"github.com/maticnetwork/heimdall/bor/types"
-	"github.com/maticnetwork/heimdall/helper"
-	hmTypes "github.com/maticnetwork/heimdall/types"
-	hmModule "github.com/maticnetwork/heimdall/types/module"
+	borCli "github.com/shibaswaparmy/heimdall/bor/client/cli"
+	borRest "github.com/shibaswaparmy/heimdall/bor/client/rest"
+	"github.com/shibaswaparmy/heimdall/bor/types"
+	"github.com/shibaswaparmy/heimdall/helper"
+	hmTypes "github.com/shibaswaparmy/heimdall/types"
+	hmModule "github.com/shibaswaparmy/heimdall/types/module"
 )
 
 var (

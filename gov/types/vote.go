@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	hmTypes "github.com/maticnetwork/heimdall/types"
+	hmTypes "github.com/shibaswaparmy/heimdall/types"
 )
 
 // Vote represents vote from validator

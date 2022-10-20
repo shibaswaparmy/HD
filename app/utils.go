@@ -10,9 +10,9 @@ import (
 	"github.com/tendermint/tendermint/libs/log"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/maticnetwork/heimdall/app/helpers"
-	"github.com/maticnetwork/heimdall/types/module"
-	simTypes "github.com/maticnetwork/heimdall/types/simulation"
+	"github.com/shibaswaparmy/heimdall/app/helpers"
+	"github.com/shibaswaparmy/heimdall/types/module"
+	simTypes "github.com/shibaswaparmy/heimdall/types/simulation"
 )
 
 // SetupSimulation creates the config, db (levelDB), temporary directory and logger for

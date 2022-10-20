@@ -7,7 +7,7 @@ import (
 	"github.com/RichardKnop/machinery/v1"
 	"github.com/RichardKnop/machinery/v1/config"
 
-	"github.com/maticnetwork/heimdall/bridge/setu/util"
+	"github.com/shibaswaparmy/heimdall/bridge/setu/util"
 )
 
 type QueueConnector struct {

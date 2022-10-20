@@ -15,13 +15,13 @@ import (
 	"github.com/tendermint/tendermint/libs/log"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/maticnetwork/heimdall/app/helpers"
-	authTypes "github.com/maticnetwork/heimdall/auth/types"
-	govTypes "github.com/maticnetwork/heimdall/gov/types"
-	paramTypes "github.com/maticnetwork/heimdall/params/types"
-	"github.com/maticnetwork/heimdall/simulation"
-	stakingTypes "github.com/maticnetwork/heimdall/staking/types"
-	supplyTypes "github.com/maticnetwork/heimdall/supply/types"
+	"github.com/shibaswaparmy/heimdall/app/helpers"
+	authTypes "github.com/shibaswaparmy/heimdall/auth/types"
+	govTypes "github.com/shibaswaparmy/heimdall/gov/types"
+	paramTypes "github.com/shibaswaparmy/heimdall/params/types"
+	"github.com/shibaswaparmy/heimdall/simulation"
+	stakingTypes "github.com/shibaswaparmy/heimdall/staking/types"
+	supplyTypes "github.com/shibaswaparmy/heimdall/supply/types"
 )
 
 // Get flags every time the simulator is run
