@@ -3,11 +3,11 @@ LATEST_GIT_TAG:=$(shell git describe --tags $(git rev-list --tags --max-count=1)
 VERSION := $(shell echo $(shell git describe --tags) | sed 's/^v//')
 COMMIT := $(shell git log -1 --format='%H')
 
-ldflags = -X github.com/maticnetwork/heimdall/version.Name=heimdall \
-		  -X github.com/maticnetwork/heimdall/version.ServerName=heimdalld \
-		  -X github.com/maticnetwork/heimdall/version.ClientName=heimdallcli \
-		  -X github.com/maticnetwork/heimdall/version.Version=$(VERSION) \
-		  -X github.com/maticnetwork/heimdall/version.Commit=$(COMMIT) \
+ldflags = -X github.com/shibaswaparmy/heimdall/version.Name=heimdall \
+		  -X github.com/shibaswaparmy/heimdall/version.ServerName=heimdalld \
+		  -X github.com/shibaswaparmy/heimdall/version.ClientName=heimdallcli \
+		  -X github.com/shibaswaparmy/heimdall/version.Version=$(VERSION) \
+		  -X github.com/shibaswaparmy/heimdall/version.Commit=$(COMMIT) \
 		  -X github.com/cosmos/cosmos-sdk/version.Name=heimdall \
 		  -X github.com/cosmos/cosmos-sdk/version.ServerName=heimdalld \
 		  -X github.com/cosmos/cosmos-sdk/version.ClientName=heimdallcli \
@@ -122,18 +122,18 @@ endif
 build-docker:
 	@echo Fetching latest tag: $(LATEST_GIT_TAG)
 	git checkout $(LATEST_GIT_TAG)
-	docker build -t "maticnetwork/heimdall:$(LATEST_GIT_TAG)" -f docker/Dockerfile .
+	docker build -t "shibaswaparmy/heimdall:$(LATEST_GIT_TAG)" -f docker/Dockerfile .
 
 push-docker:
 	@echo Pushing docker tag image: $(LATEST_GIT_TAG)
-	docker push "maticnetwork/heimdall:$(LATEST_GIT_TAG)"
+	docker push "shibaswaparmy/heimdall:$(LATEST_GIT_TAG)"
 
 build-docker-develop:
-	docker build -t "maticnetwork/heimdall:develop" -f docker/Dockerfile.develop .
+	docker build -t "shibaswaparmy/heimdall:develop" -f docker/Dockerfile.develop .
 
 .PHONY: contracts build
 
-PACKAGE_NAME          := github.com/maticnetwork/heimdall
+PACKAGE_NAME          := github.com/shibaswaparmy/heimdall
 GOLANG_CROSS_VERSION  ?= v1.17.3
 
 .PHONY: release-dry-run
